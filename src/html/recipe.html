@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../style/style.css">
+  <title>Recipe</title>
+</head>
+<body>
+  <header>
+    <nav class="general-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="recipe.html">Recipe</a></li>
+        <li><a href="saved.html">Saved Recipe</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <form>
+      <input type="text" name="" id="searchRecipe">
+      <input type="submit" value="OK" id="okRecipe">
+    </form>
+    <section class="search-result">
+      <section class="search-result-title">
+
+      </section>
+      <div class="searh-result-container">
+        <div class="search-result-grid">
+    
+        </div>
+      </div> 
+    </section>
+    <section class="search-result-detail">
+     
+    </section>
+  </main>
+  
+
+ 
+    <!-- DEXIE API -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dexie/3.0.3/dexie.min.js" integrity="sha512-aEtNzq8X5E0ambgeM68H174SOXaANJ6wDqJ0TuVIx4R2J4fRdUA0nLzx0faA1mmViqb+r0VX7cOXkskxyJENUA==" crossorigin="anonymous"></script>
+
+    <!-- CUSTOM JS -->
+    <script src="../script/script.js" type="module"></script>
+    <script src="../script/recipe.js" type="module"></script>
+</body>
+</html>
